@@ -225,6 +225,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "datastatusnotification",
+	owner: "pantech",
+	apk: "proprietary/product/app/datastatusnotification/datastatusnotification.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "ims",
 	owner: "pantech",
 	apk: "proprietary/product/priv-app/ims/ims.apk",
